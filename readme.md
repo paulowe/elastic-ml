@@ -1,4 +1,4 @@
-# Elastic-ML
+# Elastic ML
 
 > Integrate machine learning into your application with a variety of our APIs
 
