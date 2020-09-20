@@ -1,6 +1,6 @@
 # Elastic-ML
 
-> Elastic Machine Learning APIs
+> Integrate machine learning into your application with a variety of our APIs
 
 This project "saasifies" an example serverless REST API built on AWS. It uses a standard [OpenAPI](https://swagger.io/specification/) spec to describe the API's endpoints.
 
