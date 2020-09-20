@@ -1,5 +1,47 @@
 {
   "name": "elastic-ml",
-  "description": "Minimal starter template that saasifies an externally hosted backend API with support for additional OpenAPI validation.",
-  "openapi": "./openapi.json"
+  "description": "We provide an external elastic cloud computing backend APIs.",
+  "openapi": "./openapi.json",
+  "version": "1.0.0",
+  "pricingPlans": [
+    {
+      "name": "Free",
+      "rateLimit": {
+        "requestsInterval": 3600,
+        "requestsMaxPerInterval": 15
+      }
+    },
+    {
+      "name": "Standard",
+      "amount": 1999,
+      "requests": {
+        "amount": 0.5
+      }
+    }
+    
+  ],
+  "saas": {
+    "name": "Elastic Cloud Compute",
+    "heading": "**Start using Machine Learning today**",
+    "subheading": "Integrate machine learning into your application with a variety of our APIs",
+    "repo": "https://github.com/paulowe",
+    "logo": "media/logo.svg",
+    "favicon": "media/favicon.ico",
+    "theme": {
+      "name": "waves",
+      "backgroundImage": "https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
+      "buttonStyle": "standard",
+      "color": "#50A9DA",
+      "wave": true,
+      "gradientDark": true,
+      "codeBlockDark": true,
+      "location": "Toronto, ON"
+    },
+    "features": [
+      {"name": "Data Processing Functions", "desc": "Run transformations for your data right from your application.", "icon": "media/features/dp.svg"},
+      {"name": "Natural Language Processing", "desc": "Extract useful information from human speech and text data", "icon": "media/features/nlp.svg"},
+      {"name": "Computer Vision", "desc": "Use computer vision in your application to understand the world around you.", "icon": "media/features/cv.svg"}
+    ]
+
+  }
 }
