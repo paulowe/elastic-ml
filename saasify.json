@@ -3,6 +3,7 @@
   "description": "We provide an external elastic cloud computing backend APIs.",
   "openapi": "./openapi.json",
   "version": "1.0.0",
+  
   "pricingPlans": [
     {
       "name": "Free",
