@@ -2,7 +2,7 @@
 
 > Integrate machine learning into your application with a variety of our APIs
 
-<a href="https://paulowe_elastic-ml_b304288f.saasify.sh" target="_blank"><img src="images/serverlessml.png" align="center" width="500" alt="Serverless ML APIs"></a>
+<a href="https://paulowe_elastic-ml_b304288f.saasify.sh" target="_blank"><img src="media/assets/serverlessml.png" align="center" width="500" alt="Serverless ML APIs"></a>
 <br />
 Try out the <a href="http://paulowe-destination-site.s3-website.us-east-2.amazonaws.com" target="_blank"><strong>Demo here</strong></a>.
 
